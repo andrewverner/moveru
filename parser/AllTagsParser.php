@@ -7,7 +7,7 @@
  * Time: 14:54
  */
 
-class AllTagsParser extends Parser
+class AllTagsParser implements Parser
 {
     /**
      * Returns a mask for all tags

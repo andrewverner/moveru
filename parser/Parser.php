@@ -7,12 +7,12 @@
  * Time: 12:21
  */
 
-abstract class Parser
+interface Parser
 {
     /**
      * Returns a mask for specific tag or a group of tags
      *
      * @return mixed
      */
-    abstract public function getMask();
+    public function getMask();
 }

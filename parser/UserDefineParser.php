@@ -7,7 +7,7 @@
  * Time: 14:16
  */
 
-class UserDefineParser extends Parser
+class UserDefineParser implements Parser
 {
     private $mask;
 

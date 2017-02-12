@@ -7,7 +7,7 @@
  * Time: 13:49
  */
 
-class ImageParser extends Parser
+class ImageParser implements Parser
 {
     /**
      * Returns a mask for 'img' tags

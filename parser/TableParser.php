@@ -7,7 +7,7 @@
  * Time: 13:49
  */
 
-class TableParser extends Parser
+class TableParser implements Parser
 {
     /**
      * Returns a mask for tables tags

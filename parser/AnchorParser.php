@@ -7,7 +7,7 @@
  * Time: 13:38
  */
 
-class AnchorParser extends Parser
+class AnchorParser implements Parser
 {
     /**
      * Returns a mask for 'a' tags
