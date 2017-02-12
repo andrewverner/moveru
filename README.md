@@ -10,12 +10,12 @@ core:
 * class ParserException - исключение парсера
 
 parser:
-* abstract class Parser - общий интерфейс для всех парсеров
-* class AllTagsParser - парсер с маской для всех возможных тегов
-* class AnchorParser - парсер с маской для ссылок
-* class ImageParser - парсер с маской для изображений 
-* class TableParser - парсер с маской для тегов таблиц
-* class UserDefineParser - пользовательский парсер. В конструкторе указывается маска парсера
+* Parser - общий интерфейс для всех парсеров
+* AllTagsParser - парсер с маской для всех возможных тегов
+* AnchorParser - парсер с маской для ссылок
+* ImageParser - парсер с маской для изображений 
+* TableParser - парсер с маской для тегов таблиц
+* UserDefineParser - пользовательский парсер. В конструкторе указывается маска парсера
 
 reporter:
 * Reporter - общий интерфейс для всех репортеров
